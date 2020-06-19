@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: calculatorBackend
+
+grpc:
+    server:
+        port: 8080
+        keep-alive-time: 3h
+        max-inbound-message-size: 1024

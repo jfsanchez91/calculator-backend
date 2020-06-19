@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.zonnesoft.calculator.backend";
+option java_outer_classname = "Calculator";
+option objc_class_prefix = "HLW";
+
+package com.zonnesoft.calculator.backend;
+
+service CalculatorService {
+  rpc sum (SumRequest) returns (SumReply) {}
+  rpc fibonacci (FibonacciRequest) returns (stream FibonacciReply) {}
+}
+
+message SumRequest {
+  int32 a = 1;
+  int32 b = 2;
+}
+
+message SumReply {
+  int32 result = 1;
+}
+
+message FibonacciRequest {
+  int32 min = 1;
+  int32 max = 2;
+}
+
+message FibonacciReply {
+  int32 x = 1;
+  int32 fib_x = 2;
+}

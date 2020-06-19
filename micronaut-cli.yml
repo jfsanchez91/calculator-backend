@@ -1,0 +1,6 @@
+applicationType: grpc
+defaultPackage: com.zonnesoft.calculator.backend
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle
+features: [annotation-api, app-name, docker, file-watch, gradle, grpc, junit, kotlin, kotlin-application, logback, readme, shade, yaml]
