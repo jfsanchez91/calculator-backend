@@ -4,6 +4,6 @@ micronaut:
 
 grpc:
     server:
-        port: 8080
+        port: 8081
         keep-alive-time: 3h
         max-inbound-message-size: 1024
