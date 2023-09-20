@@ -8,7 +8,7 @@ plugins {
     id "com.google.protobuf" version "0.8.12"
 }
 
-version "0.1"
+version "0.2"
 group "com.zonnesoft.calculator.backend"
 
 repositories {
