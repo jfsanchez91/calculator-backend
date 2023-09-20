@@ -24,7 +24,7 @@ configurations {
 
 dependencies {
     kapt(platform("io.micronaut:micronaut-bom:$micronautVersion"))
-    kapt("io.micronaut:micronaut-inject-java")
+    // kapt("io.micronaut:micronaut-inject-java")
     kapt("io.micronaut:micronaut-validation")
     implementation(platform("io.micronaut:micronaut-bom:$micronautVersion"))
     implementation("io.micronaut:micronaut-inject")
